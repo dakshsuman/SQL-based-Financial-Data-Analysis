@@ -49,7 +49,6 @@ The dataset was compiled by retrieving historical financial data for 40+ Indian 
 import yfinance as yf
 import pandas as pd
 import time
-
    # Sector-ticker mapping
 sector_tickers = {
        "Metals & Mining": ["ADANIENT.NS", "HINDALCO.NS", "JSWSTEEL.NS", "TATASTEEL.NS"],
@@ -68,7 +67,6 @@ sector_tickers = {
        "Power": ["NTPC.NS", "POWERGRID.NS"],
        "Consumer Services": ["ETERNAL.NS", "TRENT.NS"]
    }
-
    # Fetch historical data
 sector_data = []
 for sector, tickers in sector_tickers.items():
@@ -83,13 +81,29 @@ for sector, tickers in sector_tickers.items():
                time.sleep(0.5)  # Avoid rate limiting
            except Exception as e:
                print(f"Error fetching data for {ticker}: {e}")
-
    # Combine into a single DataFrame
 all_sector_data = pd.concat(sector_data, ignore_index=True)
 all_sector_data = all_sector_data[["Date", "ticker", "sector", "Close", "Volume"]]
-```
+
    # Save to CSV for reference
 all_sector_data.to_csv("indian_sector_ticker_data2.csv", index=False)
-print(all_sector_data.head())
+print(all_sector_data.head()) 
+```
 
-```    ```sql```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
