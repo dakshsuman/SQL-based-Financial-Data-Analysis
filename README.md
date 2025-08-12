@@ -100,7 +100,7 @@ print(all_sector_data.head())
  ```
 Analyzed sector-wise performance trends over the 5-year period, identifying high-growth sectors (e.g., Consumer Services with +713%, Capital Goods with +1037%, Metals & Mining with +378%) and underperforming sectors (e.g., FMCG with +43%, Oil, Gas & Consumable Fuels with +80%) based on average closing price growth.
 
-## Computes year-over-year percentage changes in average closing prices and the overall change from 2020 to 2024 to identify high-growth and underperforming sectors.
+## year-over-year  closing prices 2020 to 2024.
 ```sql
     WITH yearly_avg AS (
     SELECT 
