@@ -99,6 +99,8 @@ print(all_sector_data.head())
     group by sector, year;
  ```
 Analyzed sector-wise performance trends over the 5-year period, identifying high-growth sectors (e.g., Consumer Services with +713%, Capital Goods with +1037%, Metals & Mining with +378%) and underperforming sectors (e.g., FMCG with +43%, Oil, Gas & Consumable Fuels with +80%) based on average closing price growth.
+
+## Computes year-over-year percentage changes in average closing prices and the overall change from 2020 to 2024 to identify high-growth and underperforming sectors.
 ```sql
     WITH yearly_avg AS (
     SELECT 
@@ -132,6 +134,11 @@ SELECT
 FROM pivot_data
 ORDER BY price_change_pct DESC;
 ```
+
+High-Growth Sectors: Consumer Services (+712.7%), Capital Goods (+722.71%), and Metals & Mining (+437.44%) lead with exceptional returns, driven by significant year-over-year gains, especially in 2023-24.
+
+Underperforming Sectors: FMCG (+51.34%) and Financial Services (+68.64%) show the slowest growth, suggesting stability but limited potential for aggressive gains.
+
 ```sql
 # Volatility
 select sector, 
