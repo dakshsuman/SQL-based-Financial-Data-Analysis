@@ -92,11 +92,12 @@ print(all_sector_data.head())
 
 
 
- ```sql  SELECT sector,
+ ```sql
+  SELECT sector,
     year(Date) as year ,
     round(avg(close),2) as avg_close_price from sector_data 
     group by sector, year;
-    ```
+ ```
 ```sql
     WITH yearly_avg AS (
     SELECT 
