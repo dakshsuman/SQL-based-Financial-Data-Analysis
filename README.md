@@ -139,6 +139,8 @@ High-Growth Sectors: Consumer Services (+712.7%), Capital Goods (+722.71%), and 
 
 Underperforming Sectors: FMCG (+51.34%) and Financial Services (+68.64%) show the slowest growth, suggesting stability but limited potential for aggressive gains.
 
+
+## Measures price volatility
 ```sql
 # Volatility
 select sector, 
@@ -151,6 +153,12 @@ group by sector
 order by price_volatility;
 
 ```
+
+High-Volatility Sectors: Automobile & Auto Components (1495), Construction / Construction Materials (2338.93), and Healthcare (949) show the greatest price fluctuations, offering high-risk opportunities.
+
+Low-Volatility Sectors: Power (22.96), Capital Goods (22.96), and Telecommunication (26.28) provide stability, suitable for risk-averse investors.
+
+## Calculating the average daily return for each sector
 ```sql
 #Average Daily Returns by Sector
 
@@ -173,6 +181,11 @@ WHERE daily_return IS NOT NULL
 GROUP BY sector
 ORDER BY avg_daily_return DESC;
 ```
+High-Return Sectors: Consumer Services (+0.26%), Capital Goods (+0.22%), and Metals & Mining (+0.18%) lead in daily returns, offering the best short-term growth prospects.
+
+Lower-Return Sectors: FMCG (+0.06%) and Financial Services (+0.09%) show the weakest daily returns, indicating stability but limited upside.
+
+## Tracks the average daily trading volume per sector
 ```sql
 
 #Trading Volume Trends
@@ -185,18 +198,23 @@ WHERE Date BETWEEN '2020-01-01' AND '2024-12-31'
 GROUP BY sector, year(Date)
 ORDER BY sector, year;
 ```
+High-Volume Sectors: Financial Services (213073.31 in 2021), Metals & Mining (2240867.49 in 2022), and Power (1742318.61 in 2024) show the highest average daily volumes, reflecting strong liquidity and investor engagement.
 
+Low-Volume Sectors: Consumer Services (62140.67 in 2023), Consumer Durables (92437.20 in 2023), and Capital Goods (260.49 in 2024) indicate lower activity, suggesting stability or reduced interest.
+
+## Analyzes the average closing price for each sector by month
 ```sql
 #Seasonal Performance Patterns
 Select Sector,
 month(Date) as month,
 round(avg(close),2) as avg_closing_price
 from sector_data 
-where month(Date) = "2"
 group by sector, month
-order by 2,1
+order by 1,2;
 ```
+High-Performing Months: Consumer Services (November, 2432.3), Metals & Mining (February, 897.68), and Healthcare (November, 2287.41) show the highest average closing prices, indicating optimal investment months.
 
+Low-Performing Months: Power (December, 184.83), Consumer Durables (December, 2625.09), and FMCG (January, 1123.78) have the lowest prices, suggesting caution during these periods.
 
 
 
