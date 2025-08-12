@@ -91,13 +91,14 @@ print(all_sector_data.head())
 ```
 
 
-
+## Yearly Average Close Prices by Sector
  ```sql
   SELECT sector,
     year(Date) as year ,
     round(avg(close),2) as avg_close_price from sector_data 
     group by sector, year;
  ```
+Analyzed sector-wise performance trends over the 5-year period, identifying high-growth sectors (e.g., Consumer Services with +713%, Capital Goods with +1037%, Metals & Mining with +378%) and underperforming sectors (e.g., FMCG with +43%, Oil, Gas & Consumable Fuels with +80%) based on average closing price growth.
 ```sql
     WITH yearly_avg AS (
     SELECT 
