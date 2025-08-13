@@ -254,13 +254,13 @@ Volatility leaders (risky): Construction Materials (2389 INR std dev), FMCG (149
 
 Volume trends: Declining overall; Automobile highest in 2020 but dropped sharply by 2024, signaling reduced liquidity in cyclicals.
 
-# 2025 Outlook & Opportunities
+## 2025 Outlook & Opportunities
 
 India's market poised for 8-18% returns (Nifty target 25,000-27,500), driven by 6.5-7% GDP growth, RBI rate cuts, and reforms. Risks: US tariffs, FII outflows, inflation. Bullish sectors: IT (AI/cloud, 8-15% CAGR), Renewables/EVs (18-25% CAGR, green push), Pharma/Healthcare (10-12% CAGR, exports), Infrastructure (10-15% CAGR, capex), Banking/Fintech (12-15% CAGR, digital). Avoid: Autos (margin pressure), Commodities (tariffs).
 
 Top stocks: TCS/Infosys (IT), Tata Power/Adani Green (Renewables), Sun Pharma (Pharma), L&T (Infra), ICICI Bank (Banking).
 
-# Portfolio Rebalancing Advice
+## Portfolio Rebalancing Advice
 
 Overweight: Capital Goods (high return/low vol), Renewables (policy tailwinds), IT/Pharma (resilient).
 
