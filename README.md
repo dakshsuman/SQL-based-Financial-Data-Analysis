@@ -99,6 +99,7 @@ print(all_sector_data.head())
     group by sector, year;
  ```
 
+<img width="1920" height="967" alt="Yearly close price" src="https://github.com/user-attachments/assets/9e1c9cba-9ce3-48b7-8e34-5cafcc21801d" />
 
 
 • Analyzed sector-wise performance trends over the 5-year period, identifying high-growth sectors based on average closing price growth.
@@ -138,6 +139,7 @@ SELECT
 FROM pivot_data
 ORDER BY price_change_pct DESC;
 ```
+<img width="1920" height="967" alt="%change by year" src="https://github.com/user-attachments/assets/dcca90e4-bc6a-4750-88e4-f7e78e8b25c4" />
 
 
 • High-Growth Sectors: Consumer Services (+712.7%), Capital Goods (+722.71%), and Metals & Mining (+437.44%) lead with exceptional returns, driven by significant year-over-year gains, especially in 2023-24.
