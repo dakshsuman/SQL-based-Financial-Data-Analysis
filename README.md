@@ -198,7 +198,7 @@ ORDER BY avg_daily_return DESC;
 • High-Return Sectors: Consumer Services (+0.26%), Capital Goods (+0.22%), and Metals & Mining (+0.18%) lead in daily returns, offering the best short-term growth prospects.
 
 
-• Lower-Return Sectors: FMCG (+0.06%) and Financial Services (+0.09%) show the weakest daily returns, indicating stability but limited upside.
+• Lower-Return Sectors: FMCG (+0.06%), Information Technology and Financial Services (+0.09%) show the weakest daily returns, indicating stability but limited upside.
 
 ## Tracks the average daily trading volume per sector
 ```sql
@@ -218,7 +218,7 @@ ORDER BY sector, year;
 • High-Volume Sectors: Financial Services (213073.31 in 2021), Metals & Mining (2240867.49 in 2022), and Power (1742318.61 in 2024) show the highest average daily volumes, reflecting strong liquidity and investor engagement.
 
 
-• Low-Volume Sectors: Consumer Services (62140.67 in 2023), Consumer Durables (92437.20 in 2023), and Capital Goods (260.49 in 2024) indicate lower activity, suggesting stability or reduced interest.
+• Low-Volume Sectors: Power in 2020 and 2021, Consumer Durables (92437.20 in 2023), and Capital Goods (260.49 in 2024) indicate lower activity, suggesting stability or reduced interest.
 
 ## Analyzes the average closing price for each sector by month
 ```sql
