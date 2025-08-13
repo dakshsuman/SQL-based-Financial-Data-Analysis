@@ -99,7 +99,10 @@ print(all_sector_data.head())
     group by sector, year;
  ```
 
+
+
 • Analyzed sector-wise performance trends over the 5-year period, identifying high-growth sectors based on average closing price growth.
+
 
 ## year-over-year  closing prices 2020 to 2024.
 ```sql
@@ -156,6 +159,7 @@ group by sector
 order by price_volatility;
 
 ```
+<img width="1920" height="967" alt="Price volatility by sector" src="https://github.com/user-attachments/assets/ec1f0f78-c590-4cd9-aa83-a6fa998207f9" />
 
 
 • High-Volatility Sectors: Automobile & Auto Components (1495), Construction / Construction Materials (2338.93), and Healthcare (949) show the greatest price fluctuations, offering high-risk opportunities.
@@ -187,6 +191,8 @@ GROUP BY sector
 ORDER BY avg_daily_return DESC;
 ```
 
+<img width="1920" height="967" alt="avg daily" src="https://github.com/user-attachments/assets/fc40f482-67d3-4908-80f4-644d0262934c" />
+
 • High-Return Sectors: Consumer Services (+0.26%), Capital Goods (+0.22%), and Metals & Mining (+0.18%) lead in daily returns, offering the best short-term growth prospects.
 
 
@@ -205,6 +211,7 @@ WHERE Date BETWEEN '2020-01-01' AND '2024-12-31'
 GROUP BY sector, year(Date)
 ORDER BY sector, year;
 ```
+<img width="1920" height="967" alt="daily avg" src="https://github.com/user-attachments/assets/986063d7-44f4-4b6d-8318-4b234d7bc78e" />
 
 • High-Volume Sectors: Financial Services (213073.31 in 2021), Metals & Mining (2240867.49 in 2022), and Power (1742318.61 in 2024) show the highest average daily volumes, reflecting strong liquidity and investor engagement.
 
@@ -221,6 +228,8 @@ from sector_data
 group by sector, month
 order by 1,2;
 ```
+<img width="1920" height="967" alt="avg monthly closing price" src="https://github.com/user-attachments/assets/fc0c2a4d-dbcc-4cce-80b5-c021d2236f84" />
+
 • High-Performing Months: Consumer Services (November, 2432.3), Metals & Mining (February, 897.68), and Healthcare (November, 2287.41) show the highest average closing prices, indicating optimal investment months.
 
 
