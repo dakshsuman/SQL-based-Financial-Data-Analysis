@@ -243,8 +243,27 @@ order by 1,2;
 
 
 
+# Sector Performance Summary (2020-2024)
+Top performers in total price change: Consumer Services (+720%), Capital Goods (+710%), Metals & Mining (+430%). 
 
+These sectors showed strong growth amid recovery from COVID, infrastructure push, and commodity cycles. Laggards: Construction Materials (+40%), FMCG (+50%).
 
+High daily returns: Consumer Services (0.25%), Capital Goods (0.22%). Low returns: FMCG (0.05%).
 
+Volatility leaders (risky): Construction Materials (2389 INR std dev), FMCG (1495). Stable: Consumer Services/Capital Goods (23).
 
+Volume trends: Declining overall; Automobile highest in 2020 but dropped sharply by 2024, signaling reduced liquidity in cyclicals.
 
+# 2025 Outlook & Opportunities
+
+India's market poised for 8-18% returns (Nifty target 25,000-27,500), driven by 6.5-7% GDP growth, RBI rate cuts, and reforms. Risks: US tariffs, FII outflows, inflation. Bullish sectors: IT (AI/cloud, 8-15% CAGR), Renewables/EVs (18-25% CAGR, green push), Pharma/Healthcare (10-12% CAGR, exports), Infrastructure (10-15% CAGR, capex), Banking/Fintech (12-15% CAGR, digital). Avoid: Autos (margin pressure), Commodities (tariffs).
+
+Top stocks: TCS/Infosys (IT), Tata Power/Adani Green (Renewables), Sun Pharma (Pharma), L&T (Infra), ICICI Bank (Banking).
+
+# Portfolio Rebalancing Advice
+
+Overweight: Capital Goods (high return/low vol), Renewables (policy tailwinds), IT/Pharma (resilient).
+
+Underweight: Construction (high vol/low growth), FMCG (stagnant), Oil/Gas (cyclical risks).
+
+Allocate 40% large-caps for stability, 30% mid-caps for growth, 30% small-caps for upside. Rebalance quarterly; buy dips in outperformers. Diversify across 3-5 sectors to manage volatility.
